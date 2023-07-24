@@ -6,7 +6,6 @@ const ul = document.querySelector("#todoList");
 document.querySelector('#todoForm').addEventListener("submit", function(event) {
     event.preventDefault();
 
-    // Creates todo object
     const todoText = field.value;
     if (todoText) {
 
